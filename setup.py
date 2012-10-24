@@ -13,6 +13,10 @@ setup(
     author='Matt Wisner',
     author_email='matt@kepric.com',
     packages=['dbvar'],
+    install_requires=[
+        'Django',
+        'JSONfield',
+        ],
     zip_safe=False,
     url='git@github.com:Kepric/django-dbvar.git',
     license='LICENSE.txt',
